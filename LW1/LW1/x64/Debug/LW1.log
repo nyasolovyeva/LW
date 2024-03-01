@@ -1,0 +1,28 @@
+﻿  Source.cpp
+C:\Users\nadya\source\repos\LW1\LW1\Source.cpp(7,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  C:\Users\nadya\source\repos\LW1\LW1\Source.cpp(7,15):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\nadya\source\repos\LW1\LW1\Source.cpp(128,5):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "void vvod<int>(T *,T *,int)"
+          with
+          [
+              T=int
+          ]
+  
+C:\Users\nadya\source\repos\LW1\LW1\Source.cpp(60,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  C:\Users\nadya\source\repos\LW1\LW1\Source.cpp(60,15):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\nadya\source\repos\LW1\LW1\Source.cpp(147,13):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "void quickSort<int>(T [],int,int)"
+          with
+          [
+              T=int
+          ]
+  	C:\Users\nadya\source\repos\LW1\LW1\Source.cpp(73,17):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "int rand_pivot<T>(T [],int,int)"
+          with
+          [
+              T=int
+          ]
+  
+  LW1.vcxproj -> C:\Users\nadya\source\repos\LW1\x64\Debug\LW1.exe
